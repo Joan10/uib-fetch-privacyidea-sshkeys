@@ -1,0 +1,6 @@
+[Default]
+url = http://localhost:5000
+admin = apitest
+adminrealm = admin_realm
+password = myapitestpassword
+hostname = hola.uib.es
