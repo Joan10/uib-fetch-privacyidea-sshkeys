@@ -1,6 +1,13 @@
 # uib-fetch-privacyidea-sshkeys
 ## SETUP
 
+Install prerequisites
+
+```
+apt-get install python3 python3-pip
+pip3 install requests
+```
+
 Unpack in /opt
 
 ```
