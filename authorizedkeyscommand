@@ -4,3 +4,4 @@ admin = apitest
 adminrealm = admin_realm
 password = myapitestpassword
 hostname = hola.uib.es
+nosslcheck = False
