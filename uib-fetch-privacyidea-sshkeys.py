@@ -116,7 +116,6 @@ def main():
     # Get ssh keys for host
     response = requests.get(url+"/machine/authitem/ssh", params=params, headers={"PI-Authorization":token},verify=not(bool(nosslcheck)))
     result = response.json()["result"]
-    print(response.text)
     if result["status"]:
         value = result["value"]
         ssh_key_list = value["ssh"]
